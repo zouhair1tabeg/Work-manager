@@ -63,8 +63,8 @@ class MainActivity : AppCompatActivity() {
                     val watches = response.body() ?: emptyList()
                     val watch_names = ArrayList<String>()
 
-                    for (pc in watches){
-                        watch_names.add("${pc.name} - ${pc.price} MAD")
+                    for (smrt in watches){
+                        watch_names.add("${smrt.name} - ${smrt.price} MAD")
                     }
 
                     val adapter = adapter(this@MainActivity, watches)
