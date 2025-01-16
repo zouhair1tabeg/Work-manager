@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Smartphone List"
+        android:text="Smartwatches List"
         android:textSize="20dp"
         android:layout_gravity="center"/>
 
